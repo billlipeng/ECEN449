@@ -1,0 +1,2 @@
+svf2ace -wtck -d -m 16776192 -i linux_system.svf -o linux_system.ace
+quit

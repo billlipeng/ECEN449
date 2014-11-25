@@ -1,0 +1,43 @@
+Executing: compedklib -s isim -lp /homes/ugrad/billlipeng/ECEN449/ -zip_models -o /tmp/xil_huNDV9 -log_file /homes/ugrad/billlipeng/ECEN449/lab7/pcores//ir_demod_v1_00_a/devl/compedklib.log -X /tmp/xil_huNDV9 -c ir_demod_v1_00_a
+
+Scanning repositories
+Collecting HDL files
+Compiling pcores
+ERROR:: Cannot locate library proc_common_v2_00_a
+ERROR:: Cannot locate library plbv46_slave_single_v1_00_a
+Compiling ir_demod_v1_00_a
+Executing: vlogcomp -work ir_demod_v1_00_a /homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/verilog/user_logic.v
+
+Analyzing Verilog file /homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/verilog/user_logic.v
+Saving Verilog parse-tree ir_demod_v1_00_a.user_logic into /tmp/xil_huNDV9/ir_demod_v1_00_a/user_logic.sdb
+Executing: vhpcomp -work ir_demod_v1_00_a /homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd
+
+Analyzing VHDL file /homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from /softwares/Linux/xilinx/10.1/ISE/vhdl/hdp/lin64/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from /softwares/Linux/xilinx/10.1/ISE/vhdl/hdp/lin64/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from /softwares/Linux/xilinx/10.1/ISE/vhdl/hdp/lin64/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from /softwares/Linux/xilinx/10.1/ISE/vhdl/hdp/lin64/ieee/std_logic_unsigned.vdb
+ERROR:HDLCompiler:104 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 66. 'proc_common_pkg' is not compiled in library proc_common_v2_00_a
+ERROR:HDLCompiler:104 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 67. 'ipif_pkg' is not compiled in library proc_common_v2_00_a
+ERROR:HDLCompiler:104 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 70. 'plbv46_slave_single' is not compiled in library plbv46_slave_single_v1_00_a
+ERROR:HDLCompiler:854 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 135. Unit ir_demod ignored due to previous errors
+ERROR:HDLCompiler:374 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 223. Entity ir_demod is not yet compiled
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 228. std_logic_vector is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 229. std_logic_vector is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 230. std_logic_vector is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 232. slv64_array_type is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 241. integer is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 242. integer is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 244. integer_array_type is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 254. integer is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 259. integer is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 261. integer is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 266. integer is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 267. integer is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 269. integer is not declared
+ERROR:HDLCompiler:69 - "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd" Line 274. std_logic is not declared
+Sorry, too many errors..
+ERROR:: Failed to execute vhpcomp -work ir_demod_v1_00_a /homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/hdl/vhdl/ir_demod.vhd : 
+Executing: zip -qr ir_demod_v1_00_a.zip ir_demod_v1_00_a
+
+Compilation completed, 3 errors.

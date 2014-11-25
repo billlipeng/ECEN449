@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/devl/synthesis/ir_demod_xst.prj"
+-top ir_demod
+-p virtex5
+-ofn "/homes/ugrad/billlipeng/ECEN449/lab7/pcores/ir_demod_v1_00_a/devl/synthesis/ir_demod_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib ir_demod_v1_00_a
