@@ -1,0 +1,32 @@
+Release 10.1.03 - par K.39 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Wed Nov 13 23:54:05 2013
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 20 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   ilmb_LMB_ABus<10>
+   ilmb_LMB_ABus<11>
+   ilmb_LMB_ABus<12>
+   ilmb_LMB_ABus<13>
+   ilmb_LMB_ABus<14>
+   ilmb_LMB_ABus<15>
+   ilmb_LMB_ABus<16>
+   ilmb_LMB_ABus<17>
+   ilmb_LMB_ABus<18>
+   ilmb_LMB_ABus<1>
+   ilmb_LMB_ABus<2>
+   ilmb_LMB_ABus<30>
+   ilmb_LMB_ABus<31>
+   ilmb_LMB_ABus<3>
+   ilmb_LMB_ABus<4>
+   ilmb_LMB_ABus<5>
+   ilmb_LMB_ABus<6>
+   ilmb_LMB_ABus<7>
+   ilmb_LMB_ABus<8>
+   ilmb_LMB_ABus<9>
+
+

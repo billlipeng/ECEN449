@@ -1,0 +1,8 @@
+# Output products list for <playback_fifo_generator_v4_4>
+playback_fifo_generator_v4_4.ngc
+playback_fifo_generator_v4_4.vhd
+playback_fifo_generator_v4_4.vho
+playback_fifo_generator_v4_4.xco
+playback_fifo_generator_v4_4_fifo_generator_v4_4_xst_1.ngc_xst.xrpt
+playback_fifo_generator_v4_4_flist.txt
+playback_fifo_generator_v4_4_xmdf.tcl

@@ -1,0 +1,1 @@
+cmd_/homes/ugrad/billlipeng/ECEN449/lab8/modules/audio_test.o := microblaze-unknown-linux-gnu-ld    -r -o /homes/ugrad/billlipeng/ECEN449/lab8/modules/audio_test.o /homes/ugrad/billlipeng/ECEN449/lab8/modules/xac97.o /homes/ugrad/billlipeng/ECEN449/lab8/modules/audio_buffer.o 

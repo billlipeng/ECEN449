@@ -1,0 +1,15 @@
+++ Creating device points
+++ Mounting filesystem
+++ Loading system loggers
+++ Starting telnet daemon
+/etc/init.d/rcS: line 19: /sbin/telnetd: not found
+rcS Complete
+/bin/sh: can't access tty; job control turned off
+# cat /proc/interrupts
+Killed
+# cat /proc/interrupts
+                CPU0       
+  2:       6607     level Xilinx INTC  timer
+  4:        144     level Xilinx INTC  systemace
+  5:         81      edge Xilinx INTC  uartlite
+# 

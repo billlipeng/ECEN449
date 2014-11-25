@@ -1,0 +1,11 @@
+/ # ls -l
+drwxr-xr-x    2 10042    2223            0 Oct  1  2009 bin
+drwxrwxrwx    4 10042    2223            0 Jan  1 00:00 dev
+drwxr-xr-x    3 10042    2223            0 Jan  1 00:00 etc
+lrwxrwxrwx    1 10042    2223           11 Oct  1  2009 init -> bin/busybox
+drwxrwxrwx    2 10042    2223            0 Oct  1  2009 mnt
+dr-xr-xr-x   26 0        0               0 Jan  1 00:00 proc
+drwxr-xr-x    2 10042    2223            0 Oct  1  2009 sbin
+drwxr-xr-x   11 0        0               0 Jan  1 00:00 sys
+drwxr-xr-x    2 0        0               0 Jan  1 00:00 tmp
+drwxrwxrwx    3 10042    2223            0 Oct  1  2009 var

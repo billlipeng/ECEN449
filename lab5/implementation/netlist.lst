@@ -1,0 +1,18 @@
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/system.ngc 1384408198
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/microblaze_0_wrapper.ngc 1384407826
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/mb_plb_wrapper.ngc 1384407843
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/ilmb_wrapper.ngc 1384407850
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/dlmb_wrapper.ngc 1384407857
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/dlmb_cntlr_wrapper.ngc 1384407865
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/ilmb_cntlr_wrapper.ngc 1384407872
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/lmb_bram_wrapper.ngc 1384407880
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/rs232_uart_1_wrapper.ngc 1384408152
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/ddr2_sdram_wrapper.ngc 1384408155
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/sysace_compactflash_wrapper.ngc 1384408087
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/clock_generator_0_wrapper.ngc 1384408095
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/debug_module_wrapper.ngc 1384408104
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/proc_sys_reset_0_wrapper.ngc 1384408112
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/xps_intc_0_wrapper.ngc 1384408157
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/xps_timer_0_wrapper.ngc 1384408136
+/homes/ugrad/billlipeng/ECEN449/lab4/implementation/multiply_0_wrapper.ngc 1384408148
+OK

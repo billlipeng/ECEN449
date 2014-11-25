@@ -1,0 +1,10 @@
+----------------------MULTIPLY.C----------------------
+# insmod multiply.ko
+Mapping virtual address...
+Physical Address: 8a208000
+Virtual Address: d0024000
+Writing a 7 to register 0
+Writing a 2 to register 1
+Read 7 from register 0
+Read 2 from register 1
+Read 14 from register 2

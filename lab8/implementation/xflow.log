@@ -1,0 +1,1319 @@
+Release 10.1.03 Xflow K.39 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+xflow -wd implementation -p xc5vlx110tff1136-1 -implement xflow.opt system.ngc  
+PMSPEC -- Overriding Xilinx file
+</softwares/Linux/xilinx/10.1/EDK/virtex5/data/virtex5.acd> with local file
+</softwares/Linux/xilinx/10.1/ISE/virtex5/data/virtex5.acd>
+
+Using Flow File: /homes/ugrad/billlipeng/ECEN449/lab8/implementation/fpga.flw 
+Using Option File(s): 
+ /homes/ugrad/billlipeng/ECEN449/lab8/implementation/xflow.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc5vlx110tff1136-1 -nt timestamp -bm system.bmm
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/system.ngc" -uc system.ucf
+system.ngd 
+#----------------------------------------------#
+Release 10.1.03 - ngdbuild K.39 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+</softwares/Linux/xilinx/10.1/EDK/virtex5/data/virtex5.acd> with local file
+</softwares/Linux/xilinx/10.1/ISE/virtex5/data/virtex5.acd>
+
+Command Line: /softwares/Linux/xilinx/10.1/ISE/bin/lin64/unwrapped/ngdbuild -p
+xc5vlx110tff1136-1 -nt timestamp -bm system.bmm
+/homes/ugrad/billlipeng/ECEN449/lab8/implementation/system.ngc -uc system.ucf
+system.ngd
+
+Reading NGO file
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/system.ngc" ...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/microblaze_0_wrapper.ngc"..
+.
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/mb_plb_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/ilmb_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/dlmb_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/dlmb_cntlr_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/ilmb_cntlr_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/lmb_bram_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/rs232_uart_1_wrapper.ngc"..
+.
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/ddr2_sdram_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/sysace_compactflash_wrapper
+.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/clock_generator_0_wrapper.n
+gc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/debug_module_wrapper.ngc"..
+.
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/proc_sys_reset_0_wrapper.ng
+c"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/xps_intc_0_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/xps_timer_0_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/multiply_0_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/ir_demod_0_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/opb_v20_0_wrapper.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/plbv46_opb_bridge_0_wrapper
+.ngc"...
+Loading design module
+"/homes/ugrad/billlipeng/ECEN449/lab8/implementation/opb_ac97_controller_ref_0_w
+rapper.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Applying constraints in "system.ucf" to the design...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL0_CLK_OUT_0_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL0_CLK_OUT_0_" TS_sys_clk_pin /
+   1.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL0_CLK_OUT_1_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL0_CLK_OUT_1_" TS_sys_clk_pin /
+   1.5 PHASE 1667 ps HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance
+   clock_generator_0/Using_PLL0.PLL0_INST/PLL_INST/Using_PLL_ADV.PLL_ADV_inst.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_clock_generator_0_clock_generator_0_PLL0_CLK_OUT_2_ =
+   PERIOD "clock_generator_0_clock_generator_0_PLL0_CLK_OUT_2_" TS_sys_clk_pin /
+   0.75 HIGH 50%>
+
+Done...
+Checking Partitions ...
+
+Processing BMM file ...
+
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "microblaze_0/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Archi
+   tectures.No_MUL64.dsp_module_I3/Using_Virtex5.DSP48E_I1" of type "DSP48E". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "microblaze_0/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Archi
+   tectures.No_MUL64.dsp_module_I2/Using_Virtex5.DSP48E_I1" of type "DSP48E". 
+   This attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "microblaze_0/Performance.Data_Flow_I/MUL_Unit_I/Use_HW_MUL.Using_DSP48_Archi
+   tectures.dsp_module_I1/Using_Virtex5.DSP48E_I1" of type "DSP48E".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "microblaze_0/Performance.Using_ICache.ICache_I1/Tag_RAM_Module/Using_B16_S36
+   .Using_S36_Virtex5.RAMB36_I1" of type "RAMB36_EXP".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "microblaze_0/Performance.Using_ICache.ICache_I1/Data_RAM_Module/Using_B16_S3
+   6.Using_S36_Virtex5.RAMB36_I1" of type "RAMB36_EXP".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "microblaze_0/Performance.Using_DCache.DCache_I1/TAG_RAM_Module/Using_B16_S36
+   .Using_S36_Virtex5.RAMB36_I1" of type "RAMB36_EXP".  This attribute will be
+   ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "microblaze_0/Performance.Using_DCache.DCache_I1/DATA_RAM_Module/Using_B16_S3
+   6.Using_S36_Virtex5.RAMB36_I1" of type "RAMB36_EXP".  This attribute will be
+   ignored.
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/u
+   _phy_calib_0/gen_rden[1].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/u
+   _phy_calib_0/gen_rden[2].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/u
+   _phy_calib_0/gen_rden[3].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/u
+   _phy_calib_0/gen_rden[4].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/u
+   _phy_calib_0/gen_rden[5].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/u
+   _phy_calib_0/gen_rden[6].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/u
+   _phy_calib_0/gen_rden[7].u_calib_rden_r' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[20].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[19].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[18].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[17].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[16].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[15].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[14].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[13].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[12].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[11].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[10].TCSR1_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[9].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[8].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[7].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[6].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[5].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[4].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[3].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[2].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[1].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR1_GENERATE[0].TCSR1_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[20].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[19].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[18].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[17].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[16].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[15].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[14].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[13].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[12].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[11].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[10].TCSR0_F
+   F_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[9].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[8].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[7].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[6].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[5].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[4].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[3].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[2].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[1].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'xps_timer_0/xps_timer_0/TC_CORE_I/TIMER_CONTROL_I/TCSR0_GENERATE[0].TCSR0_FF
+   _I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plbv46_opb_bridge_0/plbv46_opb_bridge_0/x_plbv46_slave_burst/I_SLAVE_ATTACHM
+   ENT/I_DECODER/MEM_DECODE_GEN[0].GEN_PLB_SHARED.I_BKEND_CS_REG' has
+   unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plbv46_opb_bridge_0/plbv46_opb_bridge_0/x_plbv46_slave_burst/I_SLAVE_ATTACHM
+   ENT/I_BURST_SUPPORT/RESPONSE_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[6].FD
+   RE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plbv46_opb_bridge_0/plbv46_opb_bridge_0/x_plbv46_slave_burst/I_SLAVE_ATTACHM
+   ENT/I_BURST_SUPPORT/CONTROL_DBEAT_CNTR_I/STRUCTURAL_A_GEN.I_ADDSUB_GEN[6].FDR
+   E_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plbv46_opb_bridge_0/plbv46_opb_bridge_0/x_plbv46_slave_burst/I_SLAVE_ATTACHM
+   ENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[0].I_FDRSE_BE0to3
+   ' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plbv46_opb_bridge_0/plbv46_opb_bridge_0/x_plbv46_slave_burst/I_SLAVE_ATTACHM
+   ENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[1].I_FDRSE_BE0to3
+   ' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plbv46_opb_bridge_0/plbv46_opb_bridge_0/x_plbv46_slave_burst/I_SLAVE_ATTACHM
+   ENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[2].I_FDRSE_BE0to3
+   ' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plbv46_opb_bridge_0/plbv46_opb_bridge_0/x_plbv46_slave_burst/I_SLAVE_ATTACHM
+   ENT/I_BUS_ADDRESS_COUNTER/I_FLEX_ADDR_CNTR/LDMUX_FDRSE_0to3[3].I_FDRSE_BE0to3
+   ' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plbv46_opb_bridge_0/plbv46_opb_bridge_0/x_plbv46_slave_burst/I_SLAVE_ATTACHM
+   ENT/I_BUS_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG[0].I_SIZE_S_H_REG'
+   has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'plbv46_opb_bridge_0/plbv46_opb_bridge_0/x_plbv46_slave_burst/I_SLAVE_ATTACHM
+   ENT/I_STEER_ADDRESS_COUNTER/GEN_FOR_SHARED.GEN_S_H_SIZE_REG[0].I_SIZE_S_H_REG
+   ' has unconnected output pin
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM18.SDP" of type "RAMB18".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP" of type "RAMB36_EXP".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[
+   1].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP" of type "RAMB36_EXP".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[
+   2].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP" of type "RAMB36_EXP".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "SIM_MODE" is not allowed on symbol
+   "U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[
+   3].ram.r/v5_noinit.ram/SDP.SINGLE_PRIM36.TDP" of type "RAMB36_EXP".  This
+   attribute will be ignored.
+WARNING:NgdBuild:452 - logical net 'N100' has no driver
+WARNING:NgdBuild:452 - logical net 'N101' has no driver
+WARNING:NgdBuild:452 - logical net 'N102' has no driver
+WARNING:NgdBuild:452 - logical net 'N103' has no driver
+WARNING:NgdBuild:452 - logical net 'N104' has no driver
+WARNING:NgdBuild:452 - logical net 'N105' has no driver
+WARNING:NgdBuild:452 - logical net 'N122' has no driver
+WARNING:NgdBuild:452 - logical net 'N123' has no driver
+WARNING:NgdBuild:452 - logical net 'N124' has no driver
+WARNING:NgdBuild:452 - logical net 'N125' has no driver
+WARNING:NgdBuild:452 - logical net 'N126' has no driver
+WARNING:NgdBuild:452 - logical net 'N127' has no driver
+WARNING:NgdBuild:452 - logical net 'N128' has no driver
+WARNING:NgdBuild:452 - logical net 'N129' has no driver
+WARNING:NgdBuild:452 - logical net 'N130' has no driver
+WARNING:NgdBuild:452 - logical net 'N131' has no driver
+WARNING:NgdBuild:452 - logical net 'N132' has no driver
+WARNING:NgdBuild:452 - logical net 'N133' has no driver
+WARNING:NgdBuild:452 - logical net 'N134' has no driver
+WARNING:NgdBuild:452 - logical net 'N135' has no driver
+WARNING:NgdBuild:452 - logical net 'N136' has no driver
+WARNING:NgdBuild:452 - logical net 'N137' has no driver
+WARNING:NgdBuild:452 - logical net 'N138' has no driver
+WARNING:NgdBuild:452 - logical net 'N139' has no driver
+WARNING:NgdBuild:452 - logical net 'N140' has no driver
+WARNING:NgdBuild:452 - logical net 'N141' has no driver
+WARNING:NgdBuild:452 - logical net 'N142' has no driver
+WARNING:NgdBuild:452 - logical net 'N143' has no driver
+WARNING:NgdBuild:452 - logical net 'N144' has no driver
+WARNING:NgdBuild:452 - logical net 'N145' has no driver
+WARNING:NgdBuild:452 - logical net 'N146' has no driver
+WARNING:NgdBuild:452 - logical net 'N147' has no driver
+WARNING:NgdBuild:452 - logical net 'N148' has no driver
+WARNING:NgdBuild:452 - logical net 'N149' has no driver
+WARNING:NgdBuild:452 - logical net 'N150' has no driver
+WARNING:NgdBuild:452 - logical net 'N151' has no driver
+WARNING:NgdBuild:452 - logical net 'N152' has no driver
+WARNING:NgdBuild:452 - logical net 'N153' has no driver
+WARNING:NgdBuild:452 - logical net 'N154' has no driver
+WARNING:NgdBuild:452 - logical net 'N155' has no driver
+WARNING:NgdBuild:452 - logical net 'N156' has no driver
+WARNING:NgdBuild:452 - logical net 'N157' has no driver
+WARNING:NgdBuild:452 - logical net 'N158' has no driver
+WARNING:NgdBuild:452 - logical net 'N159' has no driver
+WARNING:NgdBuild:452 - logical net 'N160' has no driver
+WARNING:NgdBuild:452 - logical net 'N161' has no driver
+WARNING:NgdBuild:452 - logical net 'N162' has no driver
+WARNING:NgdBuild:452 - logical net 'N163' has no driver
+WARNING:NgdBuild:452 - logical net 'N164' has no driver
+WARNING:NgdBuild:452 - logical net 'N165' has no driver
+WARNING:NgdBuild:452 - logical net 'N166' has no driver
+WARNING:NgdBuild:452 - logical net 'N167' has no driver
+WARNING:NgdBuild:452 - logical net 'N168' has no driver
+WARNING:NgdBuild:452 - logical net 'N169' has no driver
+WARNING:NgdBuild:452 - logical net 'N170' has no driver
+WARNING:NgdBuild:452 - logical net 'N171' has no driver
+WARNING:NgdBuild:452 - logical net 'N172' has no driver
+WARNING:NgdBuild:452 - logical net 'N173' has no driver
+WARNING:NgdBuild:452 - logical net 'N174' has no driver
+WARNING:NgdBuild:452 - logical net 'N175' has no driver
+WARNING:NgdBuild:452 - logical net 'N176' has no driver
+WARNING:NgdBuild:452 - logical net 'N177' has no driver
+WARNING:NgdBuild:452 - logical net 'N178' has no driver
+WARNING:NgdBuild:452 - logical net 'N179' has no driver
+WARNING:NgdBuild:452 - logical net 'N180' has no driver
+WARNING:NgdBuild:452 - logical net 'N181' has no driver
+WARNING:NgdBuild:452 - logical net 'N182' has no driver
+WARNING:NgdBuild:452 - logical net 'N183' has no driver
+WARNING:NgdBuild:452 - logical net 'N184' has no driver
+WARNING:NgdBuild:452 - logical net 'N185' has no driver
+WARNING:NgdBuild:452 - logical net 'N186' has no driver
+WARNING:NgdBuild:452 - logical net 'N187' has no driver
+WARNING:NgdBuild:452 - logical net 'N188' has no driver
+WARNING:NgdBuild:452 - logical net 'N189' has no driver
+WARNING:NgdBuild:452 - logical net 'N190' has no driver
+WARNING:NgdBuild:452 - logical net 'N191' has no driver
+WARNING:NgdBuild:452 - logical net 'N192' has no driver
+WARNING:NgdBuild:452 - logical net 'N193' has no driver
+WARNING:NgdBuild:452 - logical net 'N98' has no driver
+WARNING:NgdBuild:452 - logical net 'N99' has no driver
+WARNING:NgdBuild:478 - clock net debug_module/bscan_drck1 with clock driver
+   debug_module/debug_module/BUFG_DRCK1 drives no clock pins
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 151
+
+Writing NGD file "system.ngd" ...
+
+Writing NGDBUILD log file "system.bld"...
+
+NGDBUILD done.
+
+
+
+#----------------------------------------------#
+# Starting program map
+# map -o system_map.ncd -w -pr b -ol high -timing system.ngd system.pcf 
+#----------------------------------------------#
+Release 10.1.03 - Map K.39 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+</softwares/Linux/xilinx/10.1/EDK/data/Xdh_PrimTypeLib.xda> with local file
+</softwares/Linux/xilinx/10.1/ISE/data/Xdh_PrimTypeLib.xda>
+Using target part "5vlx110tff1136-1".
+Mapping design into LUTs...
+Writing file system_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven packing...
+
+Phase 1.1
+Phase 1.1 (Checksum:10be5099) REAL time: 27 secs 
+
+Phase 2.7
+Phase 2.7 (Checksum:10be5099) REAL time: 27 secs 
+
+Phase 3.31
+Phase 3.31 (Checksum:10bfd381) REAL time: 27 secs 
+
+Phase 4.33
+Phase 4.33 (Checksum:10bfd381) REAL time: 54 secs 
+
+Phase 5.32
+Phase 5.32 (Checksum:10bfd381) REAL time: 56 secs 
+
+Phase 6.2
+
+
+
+There are 16 clock regions on the target FPGA device:
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y7:                        | CLOCKREGION_X1Y7:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |                                          |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y6:                        | CLOCKREGION_X1Y6:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 3 in use      |   4 edge BUFIOs available, 0 in use      |
+|   0 center BUFIOs available, 0 in use    |                                          |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y5:                        | CLOCKREGION_X1Y5:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |                                          |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y4:                        | CLOCKREGION_X1Y4:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |                                          |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y3:                        | CLOCKREGION_X1Y3:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |                                          |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y2:                        | CLOCKREGION_X1Y2:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 3 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |                                          |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y1:                        | CLOCKREGION_X1Y1:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 2 in use      |   4 edge BUFIOs available, 0 in use      |
+|   0 center BUFIOs available, 0 in use    |                                          |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y0:                        | CLOCKREGION_X1Y0:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |                                          |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+
+
+Clock-Region: <CLOCKREGION_X0Y1>
+  key resource utilizations (used/available): edge-bufios - 2/4; bufrs - 0/2; regional-clock-spines - 0/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  2  |  0 |   60   |   60   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  4  |  0 |   40   |   40   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  0  |  0 |   80   |   80   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y2>
+  key resource utilizations (used/available): edge-bufios - 3/4; center-bufios - 0/2; bufrs - 0/2; regional-clock-spines - 0/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   60   |   60   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  2  |  0 |   60   |   60   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  4  |  0 |   40   |   40   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y6>
+  key resource utilizations (used/available): edge-bufios - 3/4; bufrs - 0/2; regional-clock-spines - 0/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   80   |   80   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|   8  |  4  |  0 |   40   |   40   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|   8  |  2  |  0 |   60   |   60   |  3840 |  2080 |  5600 |   8  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+
+
+######################################################################################
+# REGIONAL CLOCKING RESOURCE DISTRIBUTION UCF REPORT:
+#
+# Number of Regional Clocking Regions in the device: 16  (4 clock spines in each)
+# Number of Regional Clock Networks used in this design: 8 (each network can be
+# composed of up to 3 clock spines and cover up to 3 regional clock regions)
+# 
+######################################################################################
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" driven by
+"BUFIO_X0Y27"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[7].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y27" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" RANGE =
+CLOCKREGION_X0Y6;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" driven by
+"BUFIO_X0Y9"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[0].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y9" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" RANGE =
+CLOCKREGION_X0Y2;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" driven by
+"BUFIO_X0Y11"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[4].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y11" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" RANGE =
+CLOCKREGION_X0Y2;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" driven by
+"BUFIO_X0Y4"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[1].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y4" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" RANGE =
+CLOCKREGION_X0Y1;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" driven by
+"BUFIO_X0Y25"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[5].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y25" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" RANGE =
+CLOCKREGION_X0Y6;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" driven by
+"BUFIO_X0Y7"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[2].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y7" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" RANGE =
+CLOCKREGION_X0Y1;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" driven by
+"BUFIO_X0Y26"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[6].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y26" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" RANGE =
+CLOCKREGION_X0Y6;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" driven by
+"BUFIO_X0Y10"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[3].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y10" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" RANGE =
+CLOCKREGION_X0Y2;
+
+
+.....
+Phase 6.2 (Checksum:10cef4e2) REAL time: 58 secs 
+
+Phase 7.30
+Phase 7.30 (Checksum:10cef4e2) REAL time: 58 secs 
+
+Phase 8.3
+Phase 8.3 (Checksum:10cef4e2) REAL time: 58 secs 
+
+Phase 9.5
+Phase 9.5 (Checksum:10cef4e2) REAL time: 59 secs 
+
+Phase 10.8
+............................
+.................
+.......
+.................
+...............
+...............
+...............
+Phase 10.8 (Checksum:790ea349) REAL time: 1 mins 20 secs 
+
+Phase 11.29
+Phase 11.29 (Checksum:790ea349) REAL time: 1 mins 20 secs 
+
+Phase 12.5
+Phase 12.5 (Checksum:790ea349) REAL time: 1 mins 20 secs 
+
+Phase 13.18
+Phase 13.18 (Checksum:79bbdfec) REAL time: 1 mins 53 secs 
+
+Phase 14.5
+Phase 14.5 (Checksum:79bbdfec) REAL time: 1 mins 54 secs 
+
+Phase 15.34
+Phase 15.34 (Checksum:79bbdfec) REAL time: 1 mins 54 secs 
+
+REAL time consumed by placer: 1 mins 55 secs 
+CPU  time consumed by placer: 1 mins 54 secs 
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   82
+Slice Logic Utilization:
+  Number of Slice Registers:                 8,144 out of  69,120   11%
+    Number used as Flip Flops:               8,140
+    Number used as Latches:                      1
+    Number used as Latch-thrus:                  3
+  Number of Slice LUTs:                      7,122 out of  69,120   10%
+    Number used as logic:                    6,722 out of  69,120    9%
+      Number using O6 output only:           6,194
+      Number using O5 output only:             214
+      Number using O5 and O6:                  314
+    Number used as Memory:                     368 out of  17,920    2%
+      Number used as Dual Port RAM:            174
+        Number using O6 output only:            10
+        Number using O5 and O6:                164
+      Number used as Shift Register:           194
+        Number using O6 output only:           193
+        Number using O5 output only:             1
+    Number used as exclusive route-thru:        32
+  Number of route-thrus:                       263 out of 138,240    1%
+    Number using O6 output only:               238
+    Number using O5 output only:                19
+    Number using O5 and O6:                      6
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 4,162 out of  17,280   24%
+  Number of LUT Flip Flop pairs used:       11,151
+    Number with an unused Flip Flop:         3,007 out of  11,151   26%
+    Number with an unused LUT:               4,029 out of  11,151   36%
+    Number of fully used LUT-FF pairs:       4,115 out of  11,151   36%
+    Number of unique control sets:             974
+    Number of slice register sites lost
+      to control set restrictions:           2,239 out of  69,120    3%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       154 out of     640   24%
+    IOB Flip Flops:                            330
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      33 out of     148   22%
+    Number using BlockRAM only:                 33
+    Total primitives used:
+      Number of 36k BlockRAM used:              32
+      Number of 18k BlockRAM used:               1
+    Total Memory used (KB):                  1,170 out of   5,328   21%
+  Number of BUFG/BUFGCTRLs:                      9 out of      32   28%
+    Number used as BUFGs:                        9
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFIOs:                              8 out of      80   10%
+  Number of DSP48Es:                             6 out of      64    9%
+  Number of PLL_ADVs:                            1 out of       6   16%
+
+  Number of RPM macros:           64
+Peak Memory Usage:  1379 MB
+Total REAL time to MAP completion:  2 mins 27 secs 
+Total CPU time to MAP completion:   2 mins 25 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.
+
+
+
+#----------------------------------------------#
+# Starting program par
+# par -w -ol high system_map.ncd system.ncd system.pcf 
+#----------------------------------------------#
+Release 10.1.03 - par K.39 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file </softwares/Linux/xilinx/10.1/EDK/data/parBmgr.acd> with local file
+</softwares/Linux/xilinx/10.1/ISE/data/parBmgr.acd>
+
+
+
+Constraints file: system.pcf.
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment
+/softwares/Linux/xilinx/10.1/ISE:/softwares/Linux/xilinx/10.1/EDK.
+   "system" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+INFO:Timing:3377 - Intersecting Constraints found and resolved.  For more information see the TSI report.
+
+Device speed data version:  "PRODUCTION 1.64 2008-12-19".
+
+
+
+Device Utilization Summary:
+
+   Number of BSCANs                          1 out of 4      25%
+   Number of BUFGs                           9 out of 32     28%
+   Number of BUFIOs                          8 out of 80     10%
+   Number of DSP48Es                         6 out of 64      9%
+   Number of IDELAYCTRLs                     3 out of 22     13%
+      Number of LOCed IDELAYCTRLs            3 out of 3     100%
+
+   Number of ILOGICs                        91 out of 800    11%
+      Number of LOCed ILOGICs                8 out of 91      8%
+
+   Number of External IOBs                 154 out of 640    24%
+      Number of LOCed IOBs                 154 out of 154   100%
+
+   Number of IODELAYs                       80 out of 800    10%
+      Number of LOCed IODELAYs               8 out of 80     10%
+
+   Number of OLOGICs                       143 out of 800    17%
+   Number of PLL_ADVs                        1 out of 6      16%
+   Number of RAMB18X2s                       1 out of 148     1%
+   Number of RAMB36_EXPs                    32 out of 148    21%
+   Number of Slice Registers              8144 out of 69120  11%
+      Number used as Flip Flops           8140
+      Number used as Latches                 1
+      Number used as LatchThrus              3
+
+   Number of Slice LUTS                   7122 out of 69120  10%
+   Number of Slice LUT-Flip Flop pairs   11151 out of 69120  16%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 20 secs 
+Finished initial Timing Analysis.  REAL time: 20 secs 
+
+WARNING:Par:288 - The signal ilmb_LMB_ABus<5> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<7> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<6> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<10> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<8> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<11> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<9> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<13> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<12> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<4> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<2> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<14> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<15> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<16> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<18> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<17> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<3> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<30> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal ilmb_LMB_ABus<31> has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+INFO:Route - One or more directed routing (DIRT) constraints generated for a specific device have been found. Note that
+   DIRT strings are guaranteed to work only on the same device they were created for. If the DIRT constraints fail,
+   verify that the same connectivity is available in the target device for this implementation. 
+
+# of EXACT MODE DIRECTED ROUTING found:128, SUCCESS:128, FAILED:0
+
+Phase 1: 51909 unrouted;       REAL time: 25 secs 
+
+Phase 2: 43077 unrouted;       REAL time: 27 secs 
+
+Phase 3: 17146 unrouted;       REAL time: 36 secs 
+
+Phase 4: 17146 unrouted; (84743)      REAL time: 40 secs 
+
+Phase 5: 17168 unrouted; (20)      REAL time: 44 secs 
+
+Phase 6: 17168 unrouted; (20)      REAL time: 44 secs 
+
+Phase 7: 0 unrouted; (20)      REAL time: 58 secs 
+
+Updating file: system.ncd with current fully routed design.
+
+Phase 8: 0 unrouted; (20)      REAL time: 1 mins 2 secs 
+
+Phase 9: 0 unrouted; (20)      REAL time: 1 mins 2 secs 
+
+Phase 10: 0 unrouted; (0)      REAL time: 1 mins 12 secs 
+
+Total REAL time to Router completion: 1 mins 14 secs 
+Total CPU time to Router completion: 1 mins 14 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|  dlmb_port_BRAM_Clk | BUFGCTRL_X0Y1| No   | 2301 |  0.561     |  2.090      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM_mpmc_clk_ |              |      |      |            |             |
+|                   s | BUFGCTRL_X0Y8| No   | 1080 |  0.540     |  2.063      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_SysACE_Compac |              |      |      |            |             |
+|tFlash_SysACE_CLK_pi |              |      |      |            |             |
+|             n_BUFGP | BUFGCTRL_X0Y4| No   |   56 |  0.135     |  1.839      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM_mpmc_clk_ |              |      |      |            |             |
+|                90_s | BUFGCTRL_X0Y0| No   |  160 |  0.286     |  2.046      |
++---------------------+--------------+------+------+------------+-------------+
+|debug_module/Dbg_Clk |              |      |      |            |             |
+|                  _1 | BUFGCTRL_X0Y3| No   |   73 |  0.317     |  1.866      |
++---------------------+--------------+------+------+------------+-------------+
+|opb_ac97_controller_ |              |      |      |            |             |
+|ref_0_Bit_Clk_pin_BU |              |      |      |            |             |
+|                 FGP | BUFGCTRL_X0Y5| No   |   43 |  0.276     |  1.854      |
++---------------------+--------------+------+------+------------+-------------+
+|ir_demod_0/ir_demod_ |              |      |      |            |             |
+|0/USER_LOGIC_I/clk_d |              |      |      |            |             |
+|               iv_16 | BUFGCTRL_X0Y6| No   |   27 |  0.206     |  1.805      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM/DDR2_SDRA |              |      |      |            |             |
+|M/mpmc_core_0/gen_v5 |              |      |      |            |             |
+|_ddr2_phy.mpmc_phy_i |              |      |      |            |             |
+|f_0/u_phy_io_0/delay |              |      |      |            |             |
+|           ed_dqs<0> |        IO Clk| No   |   18 |  0.095     |  0.419      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM/DDR2_SDRA |              |      |      |            |             |
+|M/mpmc_core_0/gen_v5 |              |      |      |            |             |
+|_ddr2_phy.mpmc_phy_i |              |      |      |            |             |
+|f_0/u_phy_io_0/delay |              |      |      |            |             |
+|           ed_dqs<1> |        IO Clk| No   |   18 |  0.083     |  0.380      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM/DDR2_SDRA |              |      |      |            |             |
+|M/mpmc_core_0/gen_v5 |              |      |      |            |             |
+|_ddr2_phy.mpmc_phy_i |              |      |      |            |             |
+|f_0/u_phy_io_0/delay |              |      |      |            |             |
+|           ed_dqs<2> |        IO Clk| No   |   18 |  0.101     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM/DDR2_SDRA |              |      |      |            |             |
+|M/mpmc_core_0/gen_v5 |              |      |      |            |             |
+|_ddr2_phy.mpmc_phy_i |              |      |      |            |             |
+|f_0/u_phy_io_0/delay |              |      |      |            |             |
+|           ed_dqs<3> |        IO Clk| No   |   18 |  0.107     |  0.404      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM/DDR2_SDRA |              |      |      |            |             |
+|M/mpmc_core_0/gen_v5 |              |      |      |            |             |
+|_ddr2_phy.mpmc_phy_i |              |      |      |            |             |
+|f_0/u_phy_io_0/delay |              |      |      |            |             |
+|           ed_dqs<5> |        IO Clk| No   |   18 |  0.101     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM/DDR2_SDRA |              |      |      |            |             |
+|M/mpmc_core_0/gen_v5 |              |      |      |            |             |
+|_ddr2_phy.mpmc_phy_i |              |      |      |            |             |
+|f_0/u_phy_io_0/delay |              |      |      |            |             |
+|           ed_dqs<4> |        IO Clk| No   |   18 |  0.101     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM/DDR2_SDRA |              |      |      |            |             |
+|M/mpmc_core_0/gen_v5 |              |      |      |            |             |
+|_ddr2_phy.mpmc_phy_i |              |      |      |            |             |
+|f_0/u_phy_io_0/delay |              |      |      |            |             |
+|           ed_dqs<6> |        IO Clk| No   |   18 |  0.096     |  0.393      |
++---------------------+--------------+------+------+------------+-------------+
+|DDR2_SDRAM/DDR2_SDRA |              |      |      |            |             |
+|M/mpmc_core_0/gen_v5 |              |      |      |            |             |
+|_ddr2_phy.mpmc_phy_i |              |      |      |            |             |
+|f_0/u_phy_io_0/delay |              |      |      |            |             |
+|           ed_dqs<7> |        IO Clk| No   |   18 |  0.101     |  0.425      |
++---------------------+--------------+------+------+------------+-------------+
+|        clk_200mhz_s | BUFGCTRL_X0Y7| No   |    3 |  0.077     |  1.896      |
++---------------------+--------------+------+------+------------+-------------+
+|debug_module/Dbg_Upd |              |      |      |            |             |
+|               ate_1 |         Local|      |   16 |  3.060     |  3.735      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0
+
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no
+   requested value.
+Number of Timing Constraints that were not applied: 2
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.012ns|     0.838ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/gen_dqs[7].u_iob_dqs/en_dqs_sync"   |         |            |            |        |            
+         MAXDELAY = 0.85 ns                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.012ns|     0.838ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/gen_dqs[2].u_iob_dqs/en_dqs_sync"   |         |            |            |        |            
+         MAXDELAY = 0.85 ns                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.012ns|     0.838ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/gen_dqs[6].u_iob_dqs/en_dqs_sync"   |         |            |            |        |            
+         MAXDELAY = 0.85 ns                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.012ns|     0.838ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/gen_dqs[3].u_iob_dqs/en_dqs_sync"   |         |            |            |        |            
+         MAXDELAY = 0.85 ns                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.012ns|     0.838ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/gen_dqs[4].u_iob_dqs/en_dqs_sync"   |         |            |            |        |            
+         MAXDELAY = 0.85 ns                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.015ns|     0.835ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/gen_dqs[0].u_iob_dqs/en_dqs_sync"   |         |            |            |        |            
+         MAXDELAY = 0.85 ns                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.015ns|     0.835ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/gen_dqs[1].u_iob_dqs/en_dqs_sync"   |         |            |            |        |            
+         MAXDELAY = 0.85 ns                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.015ns|     0.835ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/gen_dqs[5].u_iob_dqs/en_dqs_sync"   |         |            |            |        |            
+         MAXDELAY = 0.85 ns                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_DQ_CE = MAXDELAY FROM TIMEGRP "TNM_DQ_ | SETUP   |     0.018ns|     1.882ns|       0|           0
+  CE_IDDR" TO TIMEGRP "TNM_DQS_FLOPS"       | HOLD    |     1.020ns|            |       0|           0
+     1.9 ns                                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.073ns|     0.527ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/en_dqs<3>"         MAXDELAY = 0.6 n |         |            |            |        |            
+  s                                         |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.073ns|     0.527ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/en_dqs<6>"         MAXDELAY = 0.6 n |         |            |            |        |            
+  s                                         |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.079ns|     0.521ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/en_dqs<4>"         MAXDELAY = 0.6 n |         |            |            |        |            
+  s                                         |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.079ns|     0.521ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/en_dqs<5>"         MAXDELAY = 0.6 n |         |            |            |        |            
+  s                                         |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.079ns|     0.521ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/en_dqs<2>"         MAXDELAY = 0.6 n |         |            |            |        |            
+  s                                         |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.079ns|     0.521ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/en_dqs<1>"         MAXDELAY = 0.6 n |         |            |            |        |            
+  s                                         |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.079ns|     0.521ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/en_dqs<7>"         MAXDELAY = 0.6 n |         |            |            |        |            
+  s                                         |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "DDR2_SDRAM/DDR2_SDRAM/mpmc_c | MAXDELAY|     0.079ns|     0.521ns|       0|           0
+  ore_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy |         |            |            |        |            
+  _io_0/en_dqs<0>"         MAXDELAY = 0.6 n |         |            |            |        |            
+  s                                         |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_PL | SETUP   |     0.083ns|     6.500ns|       0|           0
+  L0_CLK_OUT_0_ = PERIOD TIMEGRP         "c | HOLD    |     0.000ns|            |       0|           0
+  lock_generator_0_clock_generator_0_PLL0_C |         |            |            |        |            
+  LK_OUT_0_" TS_sys_clk_pin /         1.5 H |         |            |            |        |            
+  IGH 50%                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_PL | SETUP   |     0.279ns|    13.054ns|       0|           0
+  L0_CLK_OUT_2_ = PERIOD TIMEGRP         "c | HOLD    |     0.269ns|            |       0|           0
+  lock_generator_0_clock_generator_0_PLL0_C |         |            |            |        |            
+  LK_OUT_2_" TS_sys_clk_pin /         0.75  |         |            |            |        |            
+  HIGH 50%                                  |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_PL | SETUP   |     1.574ns|     4.978ns|       0|           0
+  L0_CLK_OUT_1_ = PERIOD TIMEGRP         "c | HOLD    |     0.471ns|            |       0|           0
+  lock_generator_0_clock_generator_0_PLL0_C |         |            |            |        |            
+  LK_OUT_1_" TS_sys_clk_pin /         1.5 P |         |            |            |        |            
+  HASE 1.667 ns HIGH 50%                    |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_MC_RD_DATA_SEL = MAXDELAY FROM TIMEGRP | SETUP   |    14.578ns|     5.422ns|       0|           0
+   "TNM_RD_DATA_SEL" TO TIMEGRP "FFS"       | HOLD    |     1.045ns|            |       0|           0
+     TS_sys_clk_pin * 2                     |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_MC_PHY_INIT_DATA_SEL_90 = MAXDELAY FRO | SETUP   |    14.675ns|     5.325ns|       0|           0
+  M TIMEGRP "TNM_PHY_INIT_DATA_SEL" TO      | HOLD    |     0.223ns|            |       0|           0
+      TIMEGRP "FFS" TS_sys_clk_pin * 2      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_MC_GATE_DLY = MAXDELAY FROM TIMEGRP "T | SETUP   |    16.559ns|     3.441ns|       0|           0
+  NM_GATE_DLY" TO TIMEGRP "FFS"         TS_ | HOLD    |     0.161ns|            |       0|           0
+  sys_clk_pin * 2                           |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_MC_CAL_RDEN_DLY = MAXDELAY FROM TIMEGR | SETUP   |    18.092ns|     1.908ns|       0|           0
+  P "TNM_CAL_RDEN_DLY" TO TIMEGRP "FFS"     | HOLD    |     0.216ns|            |       0|           0
+       TS_sys_clk_pin * 2                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_MC_RDEN_DLY = MAXDELAY FROM TIMEGRP "T | SETUP   |    18.110ns|     1.890ns|       0|           0
+  NM_RDEN_DLY" TO TIMEGRP "FFS"         TS_ | HOLD    |     0.144ns|            |       0|           0
+  sys_clk_pin * 2                           |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "fpga_0_SysACE_CompactFlash_SysACE_CL | SETUP   |    26.605ns|     3.395ns|       0|           0
+  K_pin_BUFGP/IBUFG" PERIOD = 30 ns         | HOLD    |     0.464ns|            |       0|           0
+   HIGH 50%                                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "opb_ac97_controller_ref_0_Bit_Clk_pi | SETUP   |    37.090ns|     5.820ns|       0|           0
+  n_BUFGP/IBUFG" PERIOD = 80 ns HIGH        | HOLD    |     0.445ns|            |       0|           0
+    50%                                     |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_MC_PHY_INIT_DATA_SEL_0 = MAXDELAY FROM | N/A     |         N/A|         N/A|     N/A|         N/A
+   TIMEGRP "TNM_PHY_INIT_DATA_SEL" TO       |         |            |            |        |            
+     TIMEGRP "FFS" TS_sys_clk_pin * 2       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | N/A     |         N/A|         N/A|     N/A|         N/A
+  pin" 10 ns HIGH 50%                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     10.000ns|          N/A|      9.791ns|            0|            0|            0|      6929158|
+| TS_MC_RD_DATA_SEL             |     20.000ns|      5.422ns|          N/A|            0|            0|          384|            0|
+| TS_MC_PHY_INIT_DATA_SEL_0     |     20.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| TS_MC_PHY_INIT_DATA_SEL_90    |     20.000ns|      5.325ns|          N/A|            0|            0|           41|            0|
+| TS_MC_GATE_DLY                |     20.000ns|      3.441ns|          N/A|            0|            0|           40|            0|
+| TS_MC_RDEN_DLY                |     20.000ns|      1.890ns|          N/A|            0|            0|            5|            0|
+| TS_MC_CAL_RDEN_DLY            |     20.000ns|      1.908ns|          N/A|            0|            0|            5|            0|
+| TS_clock_generator_0_clock_gen|      6.667ns|      6.500ns|          N/A|            0|            0|        14970|            0|
+| erator_0_PLL0_CLK_OUT_0_      |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|      6.667ns|      4.978ns|          N/A|            0|            0|          894|            0|
+| erator_0_PLL0_CLK_OUT_1_      |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|     13.333ns|     13.054ns|          N/A|            0|            0|      6912819|            0|
+| erator_0_PLL0_CLK_OUT_2_      |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 19 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Loading device for application Rf_Device from file '5vlx50t.nph' in environment
+/softwares/Linux/xilinx/10.1/ISE:/softwares/Linux/xilinx/10.1/EDK.
+INFO:ParHelpers:197 - Number of "Exact" mode Directed Routing Constraints: 128
+INFO:ParHelpers:199 - All "EXACT" mode Directed Routing constrained nets successfully routed. The number of constraints
+   found: 128, number successful: 128
+Total REAL time to PAR completion: 1 mins 29 secs 
+Total CPU time to PAR completion: 1 mins 24 secs 
+
+Peak Memory Usage:  1131 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 21
+Number of info messages: 5
+
+Writing design to file system.ncd
+
+
+
+PAR done!
+
+
+
+#----------------------------------------------#
+# Starting program post_par_trce
+# trce -e 3 -xml system.twx system.ncd system.pcf 
+#----------------------------------------------#
+Release 10.1.03 - Trace  (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+
+PMSPEC -- Overriding Xilinx file
+</softwares/Linux/xilinx/10.1/EDK/virtex5/data/virtex5.acd> with local file
+</softwares/Linux/xilinx/10.1/ISE/virtex5/data/virtex5.acd>
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment
+/softwares/Linux/xilinx/10.1/ISE:/softwares/Linux/xilinx/10.1/EDK.
+   "system" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+INFO:Timing:3377 - Intersecting Constraints found and resolved.  For more
+   information see the TSI report.
+--------------------------------------------------------------------------------
+Release 10.1.03 Trace  (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+/softwares/Linux/xilinx/10.1/ISE/bin/lin64/unwrapped/trce -e 3 -xml system.twx
+system.ncd system.pcf
+
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,speed:             xc5vlx110t,-1 (PRODUCTION 1.64 2008-12-19, STEPPING
+level 0)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on a
+   50 Ohm transmission line loading model.  For the details of this model, and
+   for more information on accounting for different loading conditions, please
+   see the device datasheet.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 6929853 paths, 16 nets, and 44536 connections
+
+Design statistics:
+   Minimum period:  13.054ns (Maximum frequency:  76.605MHz)
+   Maximum path delay from/to any node:   5.422ns
+   Maximum net delay:   0.838ns
+
+
+Analysis completed Mon Nov 25 21:34:44 2013
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Number of info messages: 3
+Total time: 25 secs 
+
+

@@ -1,0 +1,121 @@
+Parsing PAO project file successfully ...
+Analyzing HDL source files ...
+Analyzing HDL source files successfully ...
+HDL language for the peripheral (top level) design unit
+playback_fifo_generator_v4_4 is vhdl ...
+INFO:MDT - Create temparary xst project file:
+   /homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref.prj
+Compiling vhdl file
+"/homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref_v1_01_a/fif
+o_coregen/playback_fifo_generator_v4_4.vhd" in Library
+opb_ac97_controller_ref_v1_01_a.
+Entity <playback_fifo_generator_v4_4> compiled.
+Entity <playback_fifo_generator_v4_4> (Architecture
+<playback_fifo_generator_v4_4_a>) compiled.
+Compiling vhdl file
+"/homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref_v1_01_a/fif
+o_coregen/fifo_generator_v4_4.vhd" in Library opb_ac97_controller_ref_v1_01_a.
+Entity <fifo_generator_v4_4> compiled.
+Entity <fifo_generator_v4_4> (Architecture <fifo_generator_v4_4_a>) compiled.
+Compiling vhdl file
+"/homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref_v1_01_a/hdl
+/vhdl/opb_ac97_core.vhd" in Library opb_ac97_controller_ref_v1_01_a.
+Entity <opb_ac97_core> compiled.
+Entity <opb_ac97_core> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"/softwares/Linux/xilinx/10.1/EDK/hw/XilinxProcessorIPLib/pcores/common_v1_00_a/
+hdl/vhdl/pselect.vhd" in Library common_v1_00_a.
+Entity <pselect> compiled.
+Entity <pselect> (Architecture <imp>) compiled.
+Compiling vhdl file
+"/homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref_v1_01_a/hdl
+/vhdl/opb_ac97_controller_ref.vhd" in Library opb_ac97_controller_ref_v1_01_a.
+Entity <OPB_AC97_CONTROLLER_REF> compiled.
+Entity <OPB_AC97_CONTROLLER_REF> (Architecture <IMP>) compiled.
+
+
+Analyzing HDL attributes ...
+INFO:MDT - IPTYPE set to value : PERIPHERAL
+INFO:MDT - IMP_NETLIST set to value : TRUE
+INFO:MDT - HDL set to value : VHDL
+INFO:MDT - NO SIGIS=CLK specified for probable Clock signal OPB_Clk
+INFO:MDT - NO CLKBUF will be inserted for the signal OPB_Clk
+INFO:MDT - NO SIGIS=RST specified for probable Reset signal OPB_Rst
+INFO:MDT - NO SIGIS=CLK specified for probable Clock signal Bit_Clk
+INFO:MDT - NO CLKBUF will be inserted for the signal Bit_Clk
+INFO:MDT - NO SIGIS=CLK specified for probable Clock signal OPB_Clk
+INFO:MDT - NO CLKBUF will be inserted for the signal OPB_Clk
+INFO:MDT - NO SIGIS=RST specified for probable Reset signal OPB_Rst
+INFO:MDT - NO SIGIS=CLK specified for probable Clock signal Bit_Clk
+INFO:MDT - NO CLKBUF will be inserted for the signal Bit_Clk
+ERROR:MDT - OPB Slave Output Signal connected to bus port Sl_DBus not defined in
+   HDL source
+ERROR:MDT - OPB Slave Output Signal connected to bus port Sl_errAck not defined
+   in HDL source
+ERROR:MDT - OPB Slave Output Signal connected to bus port Sl_retry not defined
+   in HDL source
+ERROR:MDT - OPB Slave Output Signal connected to bus port Sl_toutSup not defined
+   in HDL source
+ERROR:MDT - OPB Slave Output Signal connected to bus port Sl_xferAck not defined
+   in HDL source
+INFO:MDT - Infer bus clock [OPB_Clk] for bus interface SOPB ...
+ERROR:MDT - No port was associated to bus connector Sl_DBus!
+ERROR:MDT - No port was associated to bus connector Sl_errAck!
+ERROR:MDT - No port was associated to bus connector Sl_retry!
+ERROR:MDT - No port was associated to bus connector Sl_toutSup!
+ERROR:MDT - No port was associated to bus connector Sl_xferAck!
+Copying file opb_ac97_core.vhd to
+/homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref_v1_01_a/hdl/
+vhdl/ ...
+Copying file opb_ac97_controller_ref.vhd to
+/homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref_v1_01_a/hdl/
+vhdl/ ...
+Copying file fifo_generator_v4_4.vhd to
+/homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref_v1_01_a/hdl/
+vhdl/ ...
+Copying file playback_fifo_generator_v4_4.vhd to
+/homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref_v1_01_a/hdl/
+vhdl/ ...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under
+/homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref_v1_01_a.
+
+Summary:
+
+  Logical library     : opb_ac97_controller_ref_v1_01_a
+  Version             : 1.01.a
+  Bus interface(s)    : SOPB 
+
+The following sub-directories will be created:
+
+  - opb_ac97_controller_ref_v1_01_a/data
+  - opb_ac97_controller_ref_v1_01_a/hdl
+  - opb_ac97_controller_ref_v1_01_a/hdl/verilog
+  - opb_ac97_controller_ref_v1_01_a/hdl/vhdl
+  - opb_ac97_controller_ref_v1_01_a/netlist
+
+
+The following HDL source files will be copied into the
+opb_ac97_controller_ref_v1_01_a/hdl/vhdl directory:
+
+  - opb_ac97_core.vhd
+  - opb_ac97_controller_ref.vhd
+  - fifo_generator_v4_4.vhd
+  - playback_fifo_generator_v4_4.vhd
+
+The following files will be created under the
+opb_ac97_controller_ref_v1_01_a/data directory:
+
+  - opb_ac97_controller_ref_v2_1_0.mpd
+  - opb_ac97_controller_ref_v2_1_0.pao
+
+  - opb_ac97_controller_ref_v2_1_0.bbd
+
+The following netlist file(s) will be copied into the
+opb_ac97_controller_ref_v1_01_a/netlist directory:
+
+  - fifo_generator_v4_4.ngc
+  - playback_fifo_generator_v4_4.ngc
+
+

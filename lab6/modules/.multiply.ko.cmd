@@ -1,0 +1,1 @@
+cmd_/homes/ugrad/sankarms/ECEN449/lab6/modules/multiply.ko := microblaze-unknown-linux-gnu-ld -r  -T /homes/ugrad/sankarms/ECEN449/lab6/linux-2.6.35.7/scripts/module-common.lds  -o /homes/ugrad/sankarms/ECEN449/lab6/modules/multiply.ko /homes/ugrad/sankarms/ECEN449/lab6/modules/multiply.o /homes/ugrad/sankarms/ECEN449/lab6/modules/multiply.mod.o

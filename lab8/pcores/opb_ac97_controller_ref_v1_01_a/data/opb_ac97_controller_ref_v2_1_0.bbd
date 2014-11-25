@@ -1,0 +1,9 @@
+##############################################################################
+## Filename:          /homes/ugrad/billlipeng/ECEN449/lab8/pcores/opb_ac97_controller_ref_v1_01_a/data/opb_ac97_controller_ref_v2_1_0.bbd
+## Description:       Black Box Definition
+## Date:              Mon Nov 25 21:25:24 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+Files
+################################################################################
+fifo_generator_v4_4.ngc,playback_fifo_generator_v4_4.ngc

@@ -1,0 +1,9 @@
+##############################################################################
+## Filename:          /homes/adt9508/ecen449_labs/lab8_75mhz/pcores/opb_ac97_controller_ref_v1_01_a/data/opb_ac97_controller_ref_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Thu Nov 11 22:57:20 2010 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib common_v1_00_a pselect vhdl
+lib opb_ac97_controller_ref_v1_01_a opb_ac97_core vhdl
+lib opb_ac97_controller_ref_v1_01_a opb_ac97_controller_ref vhdl

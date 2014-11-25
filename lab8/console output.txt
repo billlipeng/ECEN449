@@ -1,0 +1,58 @@
+early_printk_console is enabled at 0x84000000
+Ramdisk addr 0x00000003, Compiled-in FDT at 0xc0165008
+Linux version 2.6.35.7 (sankarms@lin15-115d.ece.tamu.edu) (gcc version 4.1.2) #2 Thu Sep 26 13:09:29 CDT 2013
+setup_cpuinfo: initialising
+setup_cpuinfo: No PVR support. Using static CPU info from FDT
+cache: wt_msr
+setup_memory: max_mapnr: 0x10000
+setup_memory: min_low_pfn: 0x90000
+setup_memory: max_low_pfn: 0xa0000
+On node 0 totalpages: 65536
+free_area_init_node: node 0, pgdat c01dc3e4, node_mem_map c02e6000
+  Normal zone: 512 pages used for memmap
+  Normal zone: 0 pages reserved
+  Normal zone: 65024 pages, LIFO batch:15
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 65024
+Kernel command line: console=ttyUL0 root=/dev/ram
+PID hash table entries: 1024 (order: 0, 4096 bytes)
+Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Memory: 256668k/262144k available
+Hierarchical RCU implementation.
+        RCU-based detection of stalled CPUs is disabled.
+        Verbose stalled-CPUs detection is disabled.
+NR_IRQS:32
+xlnx,xps-intc-1.00.a #0 at 0xd0000000, num_irq=3, edge=0x4
+xlnx,xps-timer-1.00.a #0 at 0xd0004000, irq=0
+microblaze_timer_set_mode: shutdown
+microblaze_timer_set_mode: periodic
+Calibrating delay loop... 36.45 BogoMIPS (lpj=182272)
+pid_max: default: 4096 minimum: 301
+Mount-cache hash table entries: 512
+bio: create slab <bio-0> at 0
+Switching to clocksource microblaze_clocksource
+Skipping unavailable RESET gpio -2 (reset)
+GPIO pin is already allocated
+msgmni has been set to 501
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+84000000.serial: ttyUL0 at MMIO 0x84000000 (irq = 2) is a uartlite
+console [ttyUL0] enabled
+brd: module loaded
+xsysace 83600000.sysace: Xilinx SystemACE revision 1.0.12
+xsysace 83600000.sysace: capacity: 1969632 sectors
+ xsa: xsa1
+Xilinx SystemACE device driver, major=254
+i2c /dev entries driver
+Freeing unused kernel memory: 889k freed
+Starting rcS...
+++ Creating device points
+++ Mounting filesystem
+++ Loading system loggers
+++ Starting telnet daemon
+rcS Complete
+/bin/sh: can't access tty; job control turned off
+/ # ls
+bin   dev   etc   init  mnt   proc  sbin  sys   tmp   var

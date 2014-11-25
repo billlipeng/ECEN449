@@ -1,0 +1,10 @@
+-batch 
+-create multiply 
+-ver 1.00.a 
+-dir "/homes/grad/wyb910103/lab3" 
+-lang verilog 
+-bus plbv46 s 
+-reg 3 
+-xps 
+-ise 
+-driver 
