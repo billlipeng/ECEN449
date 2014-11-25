@@ -1,0 +1,431 @@
+Release 10.1.03 - xst K.39 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /homes/ugrad/billlipeng/ecen449/lab1c/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to /homes/ugrad/billlipeng/ecen449/lab1c/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: jackpot.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "jackpot.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "jackpot"
+Output Format                      : NGC
+Target Device                      : xc5vlx110t-1-ff1136
+
+---- Source Options
+Top Module Name                    : jackpot
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : off
+Reduce Control Sets                : off
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Library Search Order               : jackpot.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "jackpot.v" in library work
+Module <jackpot> compiled
+No errors in compilation
+Analysis of file <"jackpot.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <jackpot> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <jackpot>.
+Module <jackpot> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <jackpot>.
+    Related source file is "jackpot.v".
+    Found 1-bit register for signal <R_CLK_1HZ>.
+    Found 30-bit up counter for signal <R_CNT>.
+    Found 4-bit register for signal <R_OUT>.
+    Found 1-bit register for signal <R_WIN_FLAG>.
+    Found 4-bit comparator equal for signal <R_WIN_FLAG$cmp_eq0000> created at line 76.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <jackpot> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 30-bit up counter                                     : 1
+# Registers                                            : 3
+ 1-bit register                                        : 2
+ 4-bit register                                        : 1
+# Comparators                                          : 1
+ 4-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment /softwares/Linux/xilinx/10.1/ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 30-bit up counter                                     : 1
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+# Comparators                                          : 1
+ 4-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <jackpot> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block jackpot, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 36
+ Flip-Flops                                            : 36
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : jackpot.ngr
+Top Level Output File Name         : jackpot
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 135
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 29
+#      LUT2                        : 34
+#      LUT4                        : 2
+#      LUT5                        : 2
+#      LUT6                        : 5
+#      MUXCY                       : 29
+#      VCC                         : 1
+#      XORCY                       : 30
+# FlipFlops/Latches                : 36
+#      FDC                         : 33
+#      FDCE                        : 2
+#      FDP                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 5
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              36  out of  69120     0%  
+ Number of Slice LUTs:                   74  out of  69120     0%  
+    Number used as Logic:                74  out of  69120     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     75
+   Number with an unused Flip Flop:      39  out of     75    52%  
+   Number with an unused LUT:             1  out of     75     1%  
+   Number of fully used LUT-FF pairs:    35  out of     75    46%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    640     1%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+I_CLK                              | BUFGP                  | 31    |
+SWITCH_FLAG(SWITCH_FLAG1:O)        | NONE(*)(R_WIN_FLAG)    | 1     |
+R_CLK_1HZ                          | NONE(R_OUT_3)          | 4     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+I_RESET                            | IBUF                   | 36    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 3.311ns (Maximum Frequency: 302.013MHz)
+   Minimum input arrival time before clock: 2.829ns
+   Maximum output required time after clock: 3.270ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'I_CLK'
+  Clock period: 3.311ns (frequency: 302.013MHz)
+  Total number of paths / destination ports: 1396 / 32
+-------------------------------------------------------------------------
+Delay:               3.311ns (Levels of Logic = 3)
+  Source:            R_CNT_16 (FF)
+  Destination:       R_CNT_0 (FF)
+  Source Clock:      I_CLK rising
+  Destination Clock: I_CLK rising
+
+  Data Path: R_CNT_16 to R_CNT_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.978  R_CNT_16 (R_CNT_16)
+     LUT5:I0->O            1   0.094   0.973  R_CNT_cmp_eq0000183_SW0 (N2)
+     LUT6:I1->O           31   0.094   0.607  R_CNT_cmp_eq0000183 (R_CNT_cmp_eq0000)
+     LUT2:I1->O            1   0.094   0.000  Mcount_R_CNT_eqn_91 (Mcount_R_CNT_eqn_9)
+     FDC:D                    -0.018          R_CNT_9
+    ----------------------------------------
+    Total                      3.311ns (0.753ns logic, 2.558ns route)
+                                       (22.7% logic, 77.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'R_CLK_1HZ'
+  Clock period: 1.056ns (frequency: 946.970MHz)
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               1.056ns (Levels of Logic = 1)
+  Source:            R_OUT_0 (FF)
+  Destination:       R_OUT_3 (FF)
+  Source Clock:      R_CLK_1HZ rising
+  Destination Clock: R_CLK_1HZ rising
+
+  Data Path: R_OUT_0 to R_OUT_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              3   0.471   0.491  R_OUT_0 (R_OUT_0)
+     LUT2:I1->O            1   0.094   0.000  R_OUT_mux0000<0>1 (R_OUT_mux0000<0>)
+     FDC:D                    -0.018          R_OUT_3
+    ----------------------------------------
+    Total                      1.056ns (0.565ns logic, 0.491ns route)
+                                       (53.5% logic, 46.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SWITCH_FLAG'
+  Total number of paths / destination ports: 4 / 1
+-------------------------------------------------------------------------
+Offset:              2.829ns (Levels of Logic = 3)
+  Source:            I_SWITCHES<0> (PAD)
+  Destination:       R_WIN_FLAG (FF)
+  Destination Clock: SWITCH_FLAG rising
+
+  Data Path: I_SWITCHES<0> to R_WIN_FLAG
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.818   0.794  I_SWITCHES_0_IBUF (I_SWITCHES_0_IBUF)
+     LUT4:I0->O            1   0.094   0.480  R_WIN_FLAG_cmp_eq00004_SW0 (N01)
+     LUT5:I4->O            1   0.094   0.336  R_WIN_FLAG_cmp_eq00004 (R_WIN_FLAG_cmp_eq0000)
+     FDCE:CE                   0.213          R_WIN_FLAG
+    ----------------------------------------
+    Total                      2.829ns (1.219ns logic, 1.610ns route)
+                                       (43.1% logic, 56.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'R_CLK_1HZ'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.270ns (Levels of Logic = 1)
+  Source:            R_OUT_3 (FF)
+  Destination:       I_LEDS<3> (PAD)
+  Source Clock:      R_CLK_1HZ rising
+
+  Data Path: R_OUT_3 to I_LEDS<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.471   0.347  R_OUT_3 (R_OUT_3)
+     OBUF:I->O                 2.452          I_LEDS_3_OBUF (I_LEDS<3>)
+    ----------------------------------------
+    Total                      3.270ns (2.923ns logic, 0.347ns route)
+                                       (89.4% logic, 10.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.41 secs
+ 
+--> 
+
+
+Total memory usage is 713960 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

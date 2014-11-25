@@ -1,0 +1,4 @@
+set -tmpdir "./xst/projnav.tmp"
+elaborate
+-ifn stat_machine.prj
+-ifmt mixed

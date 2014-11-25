@@ -1,0 +1,421 @@
+Release 10.1.03 - xst K.39 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /homes/ugrad/billlipeng/ecen449/lab1b/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to /homes/ugrad/billlipeng/ecen449/lab1b/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: led_count.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "led_count.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "led_count"
+Output Format                      : NGC
+Target Device                      : xc5vlx110t-1-ff1136
+
+---- Source Options
+Top Module Name                    : led_count
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : off
+Reduce Control Sets                : off
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Library Search Order               : led_count.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "led_count.v" in library work
+Module <led_count> compiled
+No errors in compilation
+Analysis of file <"led_count.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <led_count> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <led_count>.
+Module <led_count> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <led_count>.
+    Related source file is "led_count.v".
+    Found 1-bit register for signal <R_CLK_1HZ>.
+    Found 30-bit up counter for signal <R_COUNT>.
+    Found 4-bit updown counter for signal <R_OUT>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <led_count> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 30-bit up counter                                     : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 1
+ 1-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment /softwares/Linux/xilinx/10.1/ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 30-bit up counter                                     : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <led_count> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block led_count, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 35
+ Flip-Flops                                            : 35
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : led_count.ngr
+Top Level Output File Name         : led_count
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 133
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 29
+#      LUT2                        : 31
+#      LUT3                        : 1
+#      LUT4                        : 1
+#      LUT5                        : 2
+#      LUT6                        : 5
+#      MUXCY                       : 29
+#      VCC                         : 1
+#      XORCY                       : 30
+# FlipFlops/Latches                : 35
+#      FD                          : 30
+#      FDCE                        : 4
+#      FDE                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 3
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              35  out of  69120     0%  
+ Number of Slice LUTs:                   72  out of  69120     0%  
+    Number used as Logic:                72  out of  69120     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     72
+   Number with an unused Flip Flop:      37  out of     72    51%  
+   Number with an unused LUT:             0  out of     72     0%  
+   Number of fully used LUT-FF pairs:    35  out of     72    48%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of    640     1%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLOCK                              | BUFGP                  | 31    |
+R_CLK_1HZ                          | NONE(R_OUT_0)          | 4     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RESET                              | IBUF                   | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 3.311ns (Maximum Frequency: 302.013MHz)
+   Minimum input arrival time before clock: 2.053ns
+   Maximum output required time after clock: 3.281ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK'
+  Clock period: 3.311ns (frequency: 302.013MHz)
+  Total number of paths / destination ports: 1396 / 32
+-------------------------------------------------------------------------
+Delay:               3.311ns (Levels of Logic = 3)
+  Source:            R_COUNT_17 (FF)
+  Destination:       R_COUNT_0 (FF)
+  Source Clock:      CLOCK rising
+  Destination Clock: CLOCK rising
+
+  Data Path: R_COUNT_17 to R_COUNT_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.471   0.978  R_COUNT_17 (R_COUNT_17)
+     LUT5:I0->O            1   0.094   0.973  R_COUNT_cmp_eq0000183_SW0 (N5)
+     LUT6:I1->O           31   0.094   0.607  R_COUNT_cmp_eq0000183 (R_COUNT_cmp_eq0000)
+     LUT2:I1->O            1   0.094   0.000  R_COUNT_0_rstpot (R_COUNT_0_rstpot)
+     FD:D                     -0.018          R_COUNT_0
+    ----------------------------------------
+    Total                      3.311ns (0.753ns logic, 2.558ns route)
+                                       (22.7% logic, 77.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'R_CLK_1HZ'
+  Clock period: 1.403ns (frequency: 712.758MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               1.403ns (Levels of Logic = 1)
+  Source:            R_OUT_0 (FF)
+  Destination:       R_OUT_0 (FF)
+  Source Clock:      R_CLK_1HZ rising
+  Destination Clock: R_CLK_1HZ rising
+
+  Data Path: R_OUT_0 to R_OUT_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.471   0.358  R_OUT_0 (R_OUT_0)
+     INV:I->O              1   0.238   0.336  Mcount_R_OUT_xor<0>11_INV_0 (Result<0>1)
+     FDCE:D                   -0.018          R_OUT_0
+    ----------------------------------------
+    Total                      1.403ns (0.709ns logic, 0.694ns route)
+                                       (50.5% logic, 49.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'R_CLK_1HZ'
+  Total number of paths / destination ports: 11 / 7
+-------------------------------------------------------------------------
+Offset:              2.053ns (Levels of Logic = 2)
+  Source:            I_SWITCHES<0> (PAD)
+  Destination:       R_OUT_0 (FF)
+  Destination Clock: R_CLK_1HZ rising
+
+  Data Path: I_SWITCHES<0> to R_OUT_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.818   0.576  I_SWITCHES_0_IBUF (I_SWITCHES_0_IBUF)
+     LUT2:I0->O            4   0.094   0.352  R_OUT_not00011 (R_OUT_not0001)
+     FDCE:CE                   0.213          R_OUT_0
+    ----------------------------------------
+    Total                      2.053ns (1.125ns logic, 0.928ns route)
+                                       (54.8% logic, 45.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'R_CLK_1HZ'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.281ns (Levels of Logic = 1)
+  Source:            R_OUT_0 (FF)
+  Destination:       O_LEDS<0> (PAD)
+  Source Clock:      R_CLK_1HZ rising
+
+  Data Path: R_OUT_0 to O_LEDS<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.471   0.358  R_OUT_0 (R_OUT_0)
+     OBUF:I->O                 2.452          O_LEDS_0_OBUF (O_LEDS<0>)
+    ----------------------------------------
+    Total                      3.281ns (2.923ns logic, 0.358ns route)
+                                       (89.1% logic, 10.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 6.28 secs
+ 
+--> 
+
+
+Total memory usage is 713792 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

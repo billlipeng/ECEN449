@@ -1,0 +1,22 @@
+Running : /softwares/Linux/xilinx/10.1/ISE/bin/lin64/unwrapped/fuse -ise
+/homes/ugrad/billlipeng/ECEN449/HW/HW2/hw2a/hw2a/hw2a.ise -intstyle ise
+-incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o
+ALU_3_bit_isim_beh.exe -prj ALU_3_bit_beh.prj -top ALU_3_bit -top glbl
+Determining compilation order of HDL files
+Analyzing Verilog file ALU_3_bit.v
+Analyzing Verilog file /softwares/Linux/xilinx/10.1/ISE/verilog/src/glbl.v
+Saving Verilog parse-tree work.ALU_3_bit into
+/homes/ugrad/billlipeng/ECEN449/HW/HW2/hw2a/hw2a/isim/work/@a@l@u_3_bit.sdb
+Saving Verilog parse-tree work.glbl into
+/homes/ugrad/billlipeng/ECEN449/HW/HW2/hw2a/hw2a/isim/work/glbl.sdb
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 65868 Kb
+Fuse CPU Usage: 40 ms
+Compiling module glbl
+Compiling module ALU_3_bit
+Compiled 2 Verilog Units
+Built simulation executable ALU_3_bit_isim_beh.exe
+Fuse Memory Usage: 67024 Kb
+Fuse CPU Usage: 50 ms
+GCC CPU Usage: 60 ms

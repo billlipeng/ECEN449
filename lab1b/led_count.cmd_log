@@ -1,0 +1,114 @@
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -w -intstyle ise -ol std -t 1 led_count_map.ncd led_count.ncd led_count.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -v 3 -s 1 -xml led_count led_count.ncd -o led_count.twr led_count.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -f led_count.ut led_count.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -w -intstyle ise -ol std -t 1 led_count_map.ncd led_count.ncd led_count.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -v 3 -s 1 -xml led_count led_count.ncd -o led_count.twr led_count.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -f led_count.ut led_count.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -w -intstyle ise -ol std -t 1 led_count_map.ncd led_count.ncd led_count.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -v 3 -s 1 -xml led_count led_count.ncd -o led_count.twr led_count.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -f led_count.ut led_count.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -w -intstyle ise -ol std -t 1 led_count_map.ncd led_count.ncd led_count.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -v 3 -s 1 -xml led_count led_count.ncd -o led_count.twr led_count.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -f led_count.ut led_count.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -w -intstyle ise -ol std -t 1 led_count_map.ncd led_count.ncd led_count.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -v 3 -s 1 -xml led_count led_count.ncd -o led_count.twr led_count.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -f led_count.ut led_count.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "led_count.ngc" led_count.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o led_count_map.ncd led_count.ngd led_count.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -w -intstyle ise -ol std -t 1 led_count_map.ncd led_count.ncd led_count.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -v 3 -s 1 -xml led_count led_count.ncd -o led_count.twr led_count.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise" -intstyle ise -f led_count.ut led_count.ncd

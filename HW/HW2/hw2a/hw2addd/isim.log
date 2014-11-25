@@ -1,0 +1,42 @@
+Command line:
+   ./ALU_3_bit_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  43197
+
+Mon Sep 30 22:19:58 2013
+
+Total Line Count : 29
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 276.046 Meg
+
+ Total Signals          : 14
+ Total Nets             : 20
+ Total Signal Drivers   : 5
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 107
+ntrace select -o on -n /ALU_3_bit/clock 
+ntrace select -o on -n /ALU_3_bit/operand1 
+ntrace select -o on -n /ALU_3_bit/operand2 
+ntrace select -o on -n /ALU_3_bit/mode 
+ntrace select -o on -n /ALU_3_bit/result 
+ntrace select -o on -n /ALU_3_bit/overflow 
+ntrace select -o on -n /ALU_3_bit/r_temp 
+ntrace select -o on -n /ALU_3_bit/r_two_bit_sum 
+ntrace select -o on -n /ALU_3_bit/r_overflow 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 287.949 Meg
+
+Mon Sep 30 22:21:25 2013
+

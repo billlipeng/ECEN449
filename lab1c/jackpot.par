@@ -1,0 +1,135 @@
+Release 10.1.03 par K.39 (lin64)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+lin04-115d.ece.tamu.edu::  Wed Sep 11 21:06:56 2013
+
+par -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf 
+
+
+Constraints file: jackpot.pcf.
+Loading device for application Rf_Device from file '5vlx110t.nph' in environment /softwares/Linux/xilinx/10.1/ISE.
+   "jackpot" is an NCD, version 3.2, device xc5vlx110t, package ff1136, speed -1
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.64 2008-12-19".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGs                           1 out of 32      3%
+   Number of External IOBs                  10 out of 640     1%
+      Number of LOCed IOBs                  10 out of 10    100%
+
+   Number of Slice Registers                36 out of 69120   1%
+      Number used as Flip Flops             36
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                     74 out of 69120   1%
+   Number of Slice LUT-Flip Flop pairs      75 out of 69120   1%
+
+
+Overall effort level (-ol):   Standard 
+Router effort level (-rl):    Standard 
+
+Starting initial Timing Analysis.  REAL time: 5 secs 
+Finished initial Timing Analysis.  REAL time: 5 secs 
+
+Starting Router
+
+Phase 1: 221 unrouted;       REAL time: 6 secs 
+
+Phase 2: 178 unrouted;       REAL time: 6 secs 
+
+Phase 3: 38 unrouted;       REAL time: 6 secs 
+
+Phase 4: 38 unrouted; (0)      REAL time: 10 secs 
+
+Phase 5: 38 unrouted; (0)      REAL time: 10 secs 
+
+Phase 6: 38 unrouted; (0)      REAL time: 10 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 10 secs 
+
+Updating file: jackpot.ncd with current fully routed design.
+
+Phase 8: 0 unrouted; (0)      REAL time: 10 secs 
+
+Phase 9: 0 unrouted; (0)      REAL time: 10 secs 
+
+Phase 10: 0 unrouted; (0)      REAL time: 10 secs 
+
+Total REAL time to Router completion: 10 secs 
+Total CPU time to Router completion: 10 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         I_CLK_BUFGP | BUFGCTRL_X0Y0| No   |   13 |  0.110     |  1.722      |
++---------------------+--------------+------+------+------------+-------------+
+|           R_CLK_1HZ |         Local|      |    2 |  0.000     |  0.842      |
++---------------------+--------------+------+------+------------+-------------+
+|         SWITCH_FLAG |         Local|      |    1 |  0.000     |  0.746      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  TS_CLOCK = PERIOD TIMEGRP "I_CLK" 10 ns H | SETUP   |     5.163ns|     4.837ns|       0|           0
+  IGH 50%                                   | HOLD    |     0.551ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 19 secs 
+Total CPU time to PAR completion: 14 secs 
+
+Peak Memory Usage:  662 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+Writing design to file jackpot.ncd
+
+
+
+PAR done!

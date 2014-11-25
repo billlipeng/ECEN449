@@ -1,0 +1,15 @@
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  TS_CLOCK = PERIOD TIMEGRP "CLOCK" 10 ns H | SETUP   |     5.509ns|     4.491ns|       0|           0
+  IGH 50%                                   | HOLD    |     0.579ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+

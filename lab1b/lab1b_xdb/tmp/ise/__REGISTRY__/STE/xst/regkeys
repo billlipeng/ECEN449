@@ -1,0 +1,6 @@
+CommandLine
+/softwares/Linux/xilinx/10.1/ISE/bin/lin64/unwrapped/xst -ise /homes/ugrad/billlipeng/ecen449/lab1b/lab1b.ise -intstyle ise -ifn /homes/ugrad/billlipeng/ecen449/lab1b/led_count.xst -ofn /homes/ugrad/billlipeng/ecen449/lab1b/led_count.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

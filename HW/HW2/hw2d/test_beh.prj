@@ -1,0 +1,3 @@
+verilog work "stat_machine.v"
+verilog work "test.v"
+verilog work "/softwares/Linux/xilinx/10.1/ISE/verilog/src/glbl.v"

@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+/softwares/Linux/xilinx/10.1/ISE/bin/lin64/unwrapped/ngdbuild -ise /homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110t-ff1136-1 jackpot.ngc jackpot.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+jackpot_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

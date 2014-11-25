@@ -1,0 +1,26 @@
+Running : /softwares/Linux/xilinx/10.1/ISE/bin/lin64/unwrapped/fuse -ise
+/homes/ugrad/billlipeng/ECEN449/HW/HW2/hw2d/hw2d.ise -intstyle ise -incremental
+-lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o test_isim_beh.exe
+-prj test_beh.prj -top test -top glbl
+Determining compilation order of HDL files
+Analyzing Verilog file stat_machine.v
+Analyzing Verilog file test.v
+Analyzing Verilog file /softwares/Linux/xilinx/10.1/ISE/verilog/src/glbl.v
+Saving Verilog parse-tree work.stat_machine into
+/homes/ugrad/billlipeng/ECEN449/HW/HW2/hw2d/isim/work/stat_machine.sdb
+Saving Verilog parse-tree work.test into
+/homes/ugrad/billlipeng/ECEN449/HW/HW2/hw2d/isim/work/test.sdb
+Saving Verilog parse-tree work.glbl into
+/homes/ugrad/billlipeng/ECEN449/HW/HW2/hw2d/isim/work/glbl.sdb
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 65976 Kb
+Fuse CPU Usage: 50 ms
+Compiling module glbl
+Compiling module stat_machine
+Compiling module test
+Compiled 3 Verilog Units
+Built simulation executable test_isim_beh.exe
+Fuse Memory Usage: 67004 Kb
+Fuse CPU Usage: 60 ms
+GCC CPU Usage: 50 ms

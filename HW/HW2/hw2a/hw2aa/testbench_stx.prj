@@ -1,0 +1,3 @@
+verilog isim_temp "ALU_3_bit.v"
+verilog isim_temp "testbench.v"
+verilog isim_temp "/softwares/Linux/xilinx/10.1/ISE/verilog/src/glbl.v"

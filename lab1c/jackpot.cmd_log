@@ -1,0 +1,121 @@
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf led_count.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf jackpot.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf jackpot.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf jackpot.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf jackpot.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd
+xst -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -ifn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.xst" -ofn "/homes/ugrad/billlipeng/ecen449/lab1c/jackpot.syr"
+ngdbuild -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc5vlx110t-ff1136-1 "jackpot.ngc" jackpot.ngd
+map -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -cm area -pr off -k 6 -lc off -power off -o jackpot_map.ncd jackpot.ngd jackpot.pcf
+par -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -w -intstyle ise -ol std -t 1 jackpot_map.ncd jackpot.ncd jackpot.pcf
+trce -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -v 3 -s 1 -xml jackpot jackpot.ncd -o jackpot.twr jackpot.pcf -ucf jackpot.ucf
+bitgen -ise "/homes/ugrad/billlipeng/ecen449/lab1c/lab1c.ise" -intstyle ise -f jackpot.ut jackpot.ncd

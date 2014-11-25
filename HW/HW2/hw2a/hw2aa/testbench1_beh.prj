@@ -1,0 +1,3 @@
+verilog work "ALU_3_bit.v"
+verilog work "testbench.v"
+verilog work "/softwares/Linux/xilinx/10.1/ISE/verilog/src/glbl.v"

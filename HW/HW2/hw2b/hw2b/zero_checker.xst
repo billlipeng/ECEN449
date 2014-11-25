@@ -1,0 +1,4 @@
+set -tmpdir "./xst/projnav.tmp"
+elaborate
+-ifn zero_checker.prj
+-ifmt mixed
