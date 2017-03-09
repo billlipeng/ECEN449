@@ -1,5 +1,0 @@
-# cat /proc/interrupts
-                CPU0       
-  2:       6607     level Xilinx INTC  timer
-  4:        144     level Xilinx INTC  systemace
-  5:         81      edge Xilinx INTC  uartlite
